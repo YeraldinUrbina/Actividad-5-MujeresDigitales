@@ -1,0 +1,50 @@
+.ordersummary {
+    background-color: #fff8fe; // Color pastel suave
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); // Sombra para dar profundidad
+    text-align: center; // Centrar el texto
+
+    .encabezado {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 20px; // Tamaño de fuente más grande para el encabezado
+        color: #5e4153; // Color de texto oscuro para buen contraste
+    }
+
+    .plan {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        background-color: #f3d6f7; // Fondo pastel claro para el plan
+        border-radius: 10px; // Bordes redondeados
+        padding: 20px; // Espaciado interno
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); // Sombra sutil
+    }
+
+    .detalles-costos {
+        margin-bottom: 30px;
+        background-color: #ffe0e0; // Fondo pastel claro para detalles de costos
+        padding: 20px; // Espaciado interno
+        border-radius: 10px; // Bordes redondeados
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); // Sombra sutil
+    }
+
+    // Estilo adicional para el botón si es necesario
+    .boton {
+        background-color: #f8b195; // Color pastel para el botón
+        color: white;
+        border: none;
+        padding: 15px 40px;
+        font-size: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #f67280; // Color más oscuro para hover
+        }
+    }
+}
